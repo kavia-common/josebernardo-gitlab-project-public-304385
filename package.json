@@ -5,10 +5,12 @@
   "main": "server.js",
   "scripts": {
     "test": "mocha --exit tests/*",
+    "lint": "eslint .",
     "start": "node server.js"
   },
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^8.57.0",
     "mocha": "^10.2.0",
     "supertest": "^6.3.4"
   },
